@@ -56,7 +56,7 @@ params:
   title: "Chiara RELEVAT"
   description: Everything you want to know about me
   # staticPath: "."  # The path to serve the static files from
-  favicon: "images/logo-diverse.svg"
+  favicon: ""
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -125,8 +125,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Chiara."
-    subtitle: "PhD student in Software Language Engeenering"
-    content: "I am a PhD student at the [University of Rennes](https://www.univ-rennes.fr/) since september 2023. Member of the [DiverSE team](https://www.diverse-team.fr/)."
+    subtitle: "Temporary teacher at the [University of Rennes](https://www.univ-rennes.fr/)"
+    content: "After a year of engineering in the [DiverSE research team](https://www.diverse-team.fr/) I decided to focus on teaching CS at [ISTIC](https://istic.univ-rennes.fr/)."
     image: images/me.jpg
     bottomImage:
       enable: true
@@ -154,40 +154,48 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "images/logo-diverse.svg"
+    image: "images/logo_istic.svg"
     content: |-
-      I am a PhD student at the [University of Rennes](https://www.univ-rennes.fr/) working for the [Institute of Computer Science and Random Systems](https://www.irisa.fr/)(IRISA). Member of the [DiverSE team](https://www.diverse-team.fr/), supervised by [Benoit COMBEMALE](https://people.irisa.fr/Benoit.Combemale/) and [Gurvan LE GUERNIC](http://www.irisa.fr/lande/gleguern/). 
-
-      I am currently working on my subject "DSL Specialization".
-      To do so I am working with the [GEMOC Studio](https://projects.eclipse.org/projects/modeling.gemoc).
+      I am a temporary teacher at [ISTIC](https://istic.univ-rennes.fr/) mainly teaching in software engineering.
     skills:
       enable: true
-      title: "Wich implies to work with:"
+      title: "Here are the subjects I worked on this year:"
       items:
-        - "Java"
-        - "[Xtext](https://eclipse.dev/Xtext/)"
-        - "[Xtend](https://eclipse.dev/Xtext/xtend/)"
-        - "[Sirius](https://www.obeosoft.com/en/products/eclipse-sirius)"
-        - "[Kermeta 3](https://diverse-project.github.io/k3/)"
+        - "*1st year of bachelor:* Algorithm and complexity with Thomas GENET"
+        - "*2nd year of bachelor:* Software engineering with Jean-marc JEZEQUEL"
+        - "*3rd year of bachelor:* Advanced programming with Véronique MASSON"
+        - "*1st year of master degree:* Web engineering with Olivier BARAIS, Programation of network application with Yoann MAUREL"
+        - "*2nd year of master degree:* Software testing with Benoit COMBEMALE"
 
   # Experience
   experience:
     enable: true
     title: "Past Experience"
     items:
+      - job: "Research engineer"
+        company: "Inria/IRISA DiverSE team"
+        companyUrl: "https://www.diverse-team.fr/"
+        date: "September 2023 - September 2024"
+        content: |-
+          Development of a family of DSL for rooting of network packets. 
+          With temporary CS teaching in first year of preparatory class in [INSA Rennes](https://www.insa-rennes.fr/formation/premier-cycle-stpi.html).
+        badges:
+          - "GEMOC Studio"
+          - "Xtend"
+          - "Xtext"
+          - "Kermeta 3"
       - job: "Intern Back End Developer"
         company: "Vivadrive"
         companyUrl: "https://vivadrive.io/"
         date: "April 2023 - August 2023"
         info:
           enable: true
-          content: It was my last intenship to complete my master degree.
+          content: It was my last internship to complete my master degree.
         # featuredLink:
         #   enable: true
         #   name: "View the project"
         #   url: "https://example.com"
         content: "I developed an API to calcul the cost of the wear for a car over the years thanks to *Django*."
-
       - job: "Intern in research on SYCL"
         company: "University of Western Britanny"
         companyUrl: "https://www.univ-brest.fr/faculte-sciences/en/homepage?q=en"
