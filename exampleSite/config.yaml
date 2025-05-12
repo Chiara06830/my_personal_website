@@ -125,7 +125,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Chiara."
-    subtitle: "Temporary teacher at the [University of Rennes](https://www.univ-rennes.fr/)"
+    subtitle: "Temporary teacher at the University of Rennes"
     content: "After a year of engineering in the [DiverSE research team](https://www.diverse-team.fr/) I decided to focus on teaching CS at [ISTIC](https://istic.univ-rennes.fr/)."
     image: images/me.jpg
     bottomImage:
@@ -154,15 +154,15 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "images/logo_istic.svg"
+    image: "images/logo_istic.png"
     content: |-
       I am a temporary teacher at [ISTIC](https://istic.univ-rennes.fr/) mainly teaching in software engineering.
     skills:
       enable: true
       title: "Here are the subjects I worked on this year:"
       items:
-        - "*1st year of bachelor:* Algorithm and complexity with Thomas GENET"
-        - "*2nd year of bachelor:* Software engineering with Jean-marc JEZEQUEL"
+        - "*1st year of bachelor:* Algorithm and complexity with [Thomas GENET](https://people.irisa.fr/Thomas.Genet/)"
+        - "*2nd year of bachelor:* [Software engineering](https://people.irisa.fr/Jean-Marc.Jezequel/enseignement/L2GEN/) with [Jean-marc JEZEQUEL](https://people.irisa.fr/Jean-Marc.Jezequel/)"
         - "*3rd year of bachelor:* Advanced programming with Véronique MASSON"
         - "*1st year of master degree:* Web engineering with Olivier BARAIS, Programation of network application with Yoann MAUREL"
         - "*2nd year of master degree:* Software testing with Benoit COMBEMALE"
