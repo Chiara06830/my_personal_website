@@ -161,11 +161,11 @@ params:
       enable: true
       title: "Here are the subjects I worked on this year:"
       items:
-        - "*1st year of bachelor:* Algorithm and complexity with [Thomas GENET](https://people.irisa.fr/Thomas.Genet/)"
-        - "*2nd year of bachelor:* [Software engineering](https://people.irisa.fr/Jean-Marc.Jezequel/enseignement/L2GEN/) with [Jean-marc JEZEQUEL](https://people.irisa.fr/Jean-Marc.Jezequel/)"
-        - "*3rd year of bachelor:* Advanced programming with Véronique MASSON"
-        - "*1st year of master degree:* Web engineering with Olivier BARAIS, Programation of network application with Yoann MAUREL"
-        - "*2nd year of master degree:* Software testing with Benoit COMBEMALE"
+        - "*1st year of bachelor:* Algorithm and complexity by [Thomas GENET](https://people.irisa.fr/Thomas.Genet/)"
+        - "*2nd year of bachelor:* [Software engineering](https://people.irisa.fr/Jean-Marc.Jezequel/enseignement/L2GEN/) by [Jean-marc JEZEQUEL](https://people.irisa.fr/Jean-Marc.Jezequel/)"
+        - "*3rd year of bachelor:* Advanced programming by [Véronique MASSON](https://istic.univ-rennes.fr/interlocuteurs/veronique-masson)"
+        - "*1st year of master degree:* [Web engineering](https://olivier.barais.fr/d/teaching/we) and [Distributed Systems](https://olivier.barais.fr/d/teaching/sir) by [Olivier BARAIS](https://olivier.barais.fr/), Programation of network application by [Yoann MAUREL](https://istic.univ-rennes.fr/interlocuteurs/yoann-maurel)"
+        - "*2nd year of master degree:* Software testing by Benoit COMBEMALE"
 
   # Experience
   experience:
