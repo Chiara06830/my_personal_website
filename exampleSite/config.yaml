@@ -54,9 +54,9 @@ markup:
 
 params:
   title: "Chiara RELEVAT"
-  description: Everything you want to know about me
+  description: Everything you need to know about me
   # staticPath: "."  # The path to serve the static files from
-  favicon: ""
+  favicon: "images/icons_507111.svg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -165,7 +165,7 @@ params:
         - "*2nd year of bachelor:* [Software engineering](https://people.irisa.fr/Jean-Marc.Jezequel/enseignement/L2GEN/) by [Jean-marc JEZEQUEL](https://people.irisa.fr/Jean-Marc.Jezequel/)"
         - "*3rd year of bachelor:* Advanced programming by [Véronique MASSON](https://istic.univ-rennes.fr/interlocuteurs/veronique-masson)"
         - "*1st year of master degree:* [Web engineering](https://olivier.barais.fr/d/teaching/we) and [Distributed Systems](https://olivier.barais.fr/d/teaching/sir) by [Olivier BARAIS](https://olivier.barais.fr/), Programation of network application by [Yoann MAUREL](https://istic.univ-rennes.fr/interlocuteurs/yoann-maurel)"
-        - "*2nd year of master degree:* Software testing by Benoit COMBEMALE"
+        - "*2nd year of master degree:* [Software testing](https://people.irisa.fr/Benoit.Combemale/course/istic/m2il/) by [Benoit COMBEMALE](https://people.irisa.fr/Benoit.Combemale/)"
 
   # Experience
   experience:
@@ -179,11 +179,6 @@ params:
         content: |-
           Development of a family of DSL for rooting of network packets. 
           With temporary CS teaching in first year of preparatory class in [INSA Rennes](https://www.insa-rennes.fr/formation/premier-cycle-stpi.html).
-        badges:
-          - "GEMOC Studio"
-          - "Xtend"
-          - "Xtext"
-          - "Kermeta 3"
       - job: "Intern Back End Developer"
         company: "Vivadrive"
         companyUrl: "https://vivadrive.io/"
